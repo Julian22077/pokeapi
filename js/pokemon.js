@@ -26,4 +26,3 @@ async function Pokemon(id){
     `
 }
 
-Pokemon(400);
