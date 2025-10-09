@@ -33,7 +33,8 @@ function buscadorfuncion(sza){
 
 
 function Home(){
-  //buscador
+    var root= document.getElementById("root");
+    root.innerHTML = "";
     const buscador = document.createElement("input");
     buscador.classList.add("c-buscador");
     buscador.type = "text";
