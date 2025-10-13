@@ -44,6 +44,7 @@ function Aleatorios(){
 
 
 function Capturados(){
+     document.body.className = ""; 
      document.getElementById("root").innerHTML = ""
 
     //crear aleatorios
@@ -68,7 +69,7 @@ function Capturados(){
     for (let i = 1; i <= totalPokes; i++) {
         if(misNumeros.includes(i)){
             misPokes += `
-            <div class="c-unpoke c-mios-pokemon poke-${i}" onclick="Detalle('${i}')">
+            <div class="c-unpoke c-mios-pokemon poke-${i}" onclick="Pokemon('${i}')">
                 <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${i}.png" width="auto" height="45" loading="lazy" alt="${i}">
                 <p>${i}</p>
             </div>`;
