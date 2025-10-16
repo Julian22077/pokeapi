@@ -45,6 +45,7 @@ function Aleatorios(){
 
 function Capturados(){
      document.body.className = ""; 
+    document.body.style.backgroundColor = "";
      document.getElementById("root").innerHTML = ""
 
     //crear aleatorios

@@ -1,4 +1,5 @@
 function Informativa(){
+    document.body.style.backgroundColor = "rgba(197, 2, 2, 1)";
     document.getElementById("root").innerHTML=`
     <section class="info">
         <h1><a href="https://pokeapi.co/">POKE API</a></h1>

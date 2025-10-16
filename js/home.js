@@ -34,6 +34,7 @@ function buscadorfuncion(sza){
 
 function Home(){
      document.body.className = ""; 
+    document.body.style.backgroundColor = "";
     var root= document.getElementById("root");
     root.innerHTML = "";
     const buscador = document.createElement("input");
