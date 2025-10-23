@@ -172,3 +172,16 @@ body{
   .info h2{ font-size:1rem; }
   .info p{ font-size:0.9rem; }
 }
+.informacion{
+    display: none;
+}
+.informacion.mostrar{
+    display: block;
+}
+.detalle-header{
+    display: flex;
+    justify-content: space-around;
+}
+.detalle-header img{
+    height: 60px;
+}
