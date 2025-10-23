@@ -50,6 +50,18 @@ async function Pokemon(id){
         }
         document.getElementById("uno").classList.add(data.types[0].type.name)
         root.innerHTML=` <section class="c-detalle">
+        <div class="detalle-header">
+            <button id="Volver><</button>
+            <img  class= "pokemonbrand"src="https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pok%C3%A9mon_logo.svg">
+            <img  class=""pokeball"src="https://www.flaticon.es/icono-gratis/pokemon_1169608?term=pokemon&page=1&position=15&origin=search&related_id=1169608">
+        </div>
+
+        <div class="nombre>
+        <p>${data.name}</p>
+        <p>#${data.id}</p>
+        </div>  
+        <div class="detalle-informacion">
+        <button class="about">
         <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${data.id}.png" alt="${data.name}" height="120" width="auto">
         <p>${data.name}</p>
         <p>${data.id}</p>
